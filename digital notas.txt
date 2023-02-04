@@ -1,0 +1,7 @@
+entry point punto de entrada de la aplicación (creo que es como el index.html en js)
+
+metodos para array
+forOf	Investigar
+forIn	Investigar
+
+shift + alt + f

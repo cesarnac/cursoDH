@@ -1,0 +1,25 @@
+CSS
+h1{
+    color: white;
+    background-color: teal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comisón 54</title>
+    <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+   <h1>Bienvenid@s a nuestro sitio web</h1>
+<img src="https://avatars.githubusercontent.com/u/4744927?v=4" alt="MSc. Angel Daniel Fuentes"> 
+</body>
+</html>

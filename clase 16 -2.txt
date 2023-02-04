@@ -1,0 +1,17 @@
+
+la información viaja a través de headers o cabeceras
+
+metodos html
+
+get: solicitar datos
+post: envia datos
+put : envia datos (parecido a post) reemplaza toda la información de un recurso.
+patch: igual a put modificaciones parciales
+delete: borra un recurso.
+
+
+------------------
+EXPRESS
+
+const express = require("express");  traer el framework (o libreria) de express a mi proyecto
+const app = express(); traer las funcionalidades de express y guardar los resultados de invocar a express
