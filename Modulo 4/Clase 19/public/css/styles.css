@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+}
+
+.oculto{
+    display: none;
+}
+
+.contenedor01{
+    width: 80%;
+    max-width: 900px;
+    background-color: salmon;
+    padding: 30px;
+    margin: auto;
+}
+
+contenedor02{
+    width: 90%;
+
+}
+@media(min-width: 570px){
+    body{
+        background-color: greenyellow;
+    }
+    .contenedor01{
+        border: solid 5px salmon;
+        background-color: black;
+        color: white;
+    }
+}
+
+@media(min-width: 900px){
+    .contenedor01{
+        color: red;
+    }
+
+    .oculto{
+        display: block;
+    }
+}
+
+
+@media (min-width: 576px){
+    .contenedor1,
+    .contenedor2{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+

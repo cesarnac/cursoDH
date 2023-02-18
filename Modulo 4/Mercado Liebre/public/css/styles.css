@@ -1,12 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    text-align: center;
+}
+
 body{
     background-color: #EAC926;
     font-family: "roboto";
+    margin: 30px;
 }
    
+.borde_icono{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
 
+.cambio_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.cambio_line2{
+    display: flex;
+    align-items: center;
+    }
+
+.burger-menu{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blue;
+    width: 17px;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 h2{
     font-size: 24px;
+    
 }
 
 p{
@@ -25,7 +63,20 @@ p{
 
 article{
     text-align: center;
-}
+ }
+
+ .article2{
+    border-top: solid 1px #ebebeb;
+ }
 footer{
     text-align: center;
+    
 }
+
+.footer{
+    align-items: center;
+}
+#derechos{
+    text-align: left;
+}
+
