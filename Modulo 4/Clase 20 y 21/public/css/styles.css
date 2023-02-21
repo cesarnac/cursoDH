@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+/*Creación menú hamburguesa*/
+.hamburguer-buttom{
+    background-color: #03264c;
+    color: #ffffff;
+    display: block;
+    max-width: 50PX;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+}
+
+.logo{
+    width: 100px;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Oculta las listas para que se use el menú desplegable
+/*.main-navbar{
+    display: none;
+}*/
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+@media (min-width: 768px){
+    .main-header-top-bar{
+        border: dotted 2px red;       /* Darle un borde a la caja */
+        display: flex;                  /* Habilitar flex*/
+        justify-content: space-between; /* Separar los dos elementos de la caja con un espacio */
+    }
+
+    .copy-header{
+        max-width: 350px;               /* Darle un ancho máximo al elemento copy header */
+        text-align: right;
+    }
+
+    /* Oculto el menú hamburguesa y habilito las listas desplegables */
+    .hamburguer-buttom{
+        display: none;
+    }
+
+    .main-navbar{
+        border: dotted 2px red;       /* Darle un borde a la caja */
+        display: flex;
+        justify-content: space-between; /* Separar los dos elementos de la caja con un espacio */
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+}
+
+
+
