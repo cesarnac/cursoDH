@@ -43,5 +43,48 @@
             </ul>
         </nav>
     </header>
+    <form action="/crear-producto" method="POST" class="create-form">
+            <div class="control-formulario">
+                <label>Nombre del producto:</label>
+                <input type="text" name="nombre" class="control">
+            </div>
+            
+            <div class="control-formulario">
+                <label>Precio del producto:</label>
+                <input type="text" name="precio" placeholder="123.56" class="control">   
+            </div>
+
+            <div class="control-formulario">
+                <label>Está en oferta:</label>
+                <input type="radio" name="enOferta">
+            </div>
+            <div class="control-formulario">
+                <label>Categoria:</label>
+                <select name="categoria" class="control">
+                    <option value="hogar">Hogar</option>
+                    <option value="electro">Electro</option>
+                    <option value="indumentaria">Indumentaria</option>
+                </select>
+                <input type="radio" name="enOferta">
+            </div>
+
+            <div class="control-formulario">
+                <label>Ciudad:</label>
+                <select name="categoria" class="control">
+                    <option value="bogota">Bogotá</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                </select>
+                <input type="radio" name="enOferta">
+            </div>
+
+            <div class="control-formulario">
+                <label>Descripción del producto</label>
+                <textarea name="descripcion" class="control"></textarea>
+            </div>
+            <button type="submit" class="boton-formulario">Guardar</button>
+            <button type="reset" class="boton-formulario">Borrar</button>
+
+    </form>
 </body>
 </html>

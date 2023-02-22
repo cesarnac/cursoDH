@@ -53,6 +53,37 @@ body{
     font-size: 17px;
 }
 
+.create-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+.control{
+    width: 100%;
+    padding: 8px 8px;
+}
+
+.boton-formulario{
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formulario-login{
+    background-color: white;
+}
+
 @media (min-width: 768px){
     .main-header-top-bar{
         border: dotted 2px red;       /* Darle un borde a la caja */
